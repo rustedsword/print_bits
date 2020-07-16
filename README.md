@@ -1,6 +1,6 @@
 # print_bits
 
-Small console tool which prints bits in a byte
+Small console tool which prints set/unset bits.
 
 ## Usage
 
