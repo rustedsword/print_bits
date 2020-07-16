@@ -1,0 +1,3 @@
+[submodule "deps/poor_base"]
+	path = deps/poor_base
+	url = ../poor_base.git
