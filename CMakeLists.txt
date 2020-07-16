@@ -2,6 +2,11 @@ cmake_minimum_required(VERSION 3.14)
 
 project(print_bits LANGUAGES C)
 
+if(NOT DEFINED IN_TREE_BUILD)
+    set(IN_TREE_BUILD 1)
+endif()
+
+#Set IN_TREE_BUILD to 0 to search for dependencies in the system
 if(IN_TREE_BUILD)
     add_subdirectory(deps/poor_base EXCLUDE_FROM_ALL)
 else()

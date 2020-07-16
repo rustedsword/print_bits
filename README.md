@@ -14,6 +14,6 @@ Small console tool which prints set/unset bits.
 git clone --recurse-submodules --remote-submodules https://github.com/rustedsword/print_bits.git
 mkdir build
 cd build
-cmake -D IN_TREE_BUILD=1 ../print_bits
+cmake ../print_bits
 make
 ```
