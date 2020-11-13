@@ -1,6 +1,4 @@
-#include <misc_array.h>
-#include <string.h>
-#include <stdlib.h>
+#include <poor_array.h>
 
 int main(int argc, char **argv) {
 	const make_array_ptr(args, argv, argc);
